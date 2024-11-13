@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Ensure this font is imported */
+    box-sizing: border-box;
+}
+
+body {
+    background: #002339;
+    color: #fff;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    font-weight: 500;
+    font-size: 30px; /* Reduced base font size */
+}
+
+.container h1 {
+    font-size: 36px; /* Adjusted h1 size */
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; /* Adjusted padding for a more compact look */
+    border-radius: 5px;
+}
+
+.display img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 16px; /* Reduced input text size */
+}
+
+.container button img {
+    width: 24px; /* Adjusted button image size */
+    margin-right: 8px; /* Adjusted margin */
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 16px; /* Reduced button text size */
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px; /* Adjusted padding */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effects for better UX */
+.container button:hover {
+    background: #017c4a;
+}
+
+.display img:hover {
+    opacity: 0.8;
+}
